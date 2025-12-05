@@ -73,3 +73,11 @@ a:hover{
 .page{
     width: 100%;
 }
+
+.page-title{
+    margin: 0;
+}
+
+.page-subtitle{
+    margin: 0;
+}
