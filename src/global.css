@@ -64,3 +64,8 @@ a:hover{
 .logo-image{
     width: 25px;
 }
+
+.right-header{
+    display: flex;
+    gap: 10px;
+}
