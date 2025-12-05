@@ -42,6 +42,7 @@ body{
 }
 
 a{
+    color: var(--foreground);
     opacity: .75;
     transition-duration: .25s;
 }
