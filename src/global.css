@@ -1,0 +1,33 @@
+/* FONTS
+https://fonts.adobe.com/fonts/helvetica-neue-world
+
+55 ROMAN
+font-family: "helvetica-neue-world", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+56 ITALIC
+font-family: "helvetica-neue-world", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+75 BOLD
+font-family: "helvetica-neue-world", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+76 BOLD ITALIC
+font-family: "helvetica-neue-world", sans-serif;
+font-weight: 700;
+font-style: italic;
+*/
+
+:root{
+    --global-type: "helvetica-neue-world", "helvetica neue", helvetica, arial, sans-serif;
+    --background: #e3e3e3;
+    --foreground: #1c1c1c;
+}
+
+body{
+    font-family: var(--global-type);
+}
