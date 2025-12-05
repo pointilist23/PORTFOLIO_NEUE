@@ -42,7 +42,9 @@ body{
     padding: 25px;
     margin: 0;
     width: 100%;
-    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .site-container{
