@@ -70,6 +70,8 @@ a:hover{
     gap: 10px;
 }
 
+/* page contents */
+
 .page{
     width: 100%;
 }
@@ -81,4 +83,10 @@ a:hover{
 .page-subtitle{
     margin: 0;
     font-weight: 400;
+}
+
+.hero{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
