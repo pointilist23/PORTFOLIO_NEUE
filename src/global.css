@@ -45,6 +45,11 @@ body{
     max-width: 900px;
 }
 
+.site-container{
+    width: 100%;
+    max-width: 900px;
+}
+
 a{
     color: var(--foreground);
     opacity: .75;
