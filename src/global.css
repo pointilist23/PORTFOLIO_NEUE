@@ -60,3 +60,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
 }
+
+.logo-image{
+    width: 25px;
+}
