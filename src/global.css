@@ -41,6 +41,8 @@ body{
     color: var(--foreground);
     padding: 25px;
     margin: 0;
+    width: 100%;
+    max-width: 900px;
 }
 
 a{
