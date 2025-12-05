@@ -38,7 +38,7 @@ font-style: italic;
 
 body{
     font-family: var(--global-type);
-    background: var(--background-gradient);
+    background: var(--background);
     color: var(--foreground);
     padding: 25px;
     margin: 0;
@@ -61,6 +61,11 @@ a{
 
 a:hover{
     opacity: 1;
+}
+
+.nodecor{
+    opacity: 1;
+    text-decoration: none;
 }
 
 /* global header */
@@ -97,6 +102,34 @@ a:hover{
     margin-right: 0;
     font-weight: 400;
 }
+
+.work-grid{
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.workpiece{
+  width: 280px;
+  height: auto;
+  transition-duration: .25s;
+}
+
+.work-preview{
+  width: 100%;
+}
+
+.work-caption{
+  text-align: center;
+}
+
+.workpiece:hover{
+    scale: 1.05;
+}
+
 
 /* hero */
 
