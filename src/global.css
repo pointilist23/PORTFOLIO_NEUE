@@ -24,8 +24,12 @@ font-style: italic;
 
 :root{
     --global-type: "helvetica-neue-world", "helvetica neue", helvetica, arial, sans-serif;
-    --background: #e3e3e3;
-    --foreground: #1c1c1c;
+    --background: #1c1c1c;
+    --foreground: #e3e3e3;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 body{
