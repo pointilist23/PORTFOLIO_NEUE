@@ -69,3 +69,7 @@ a:hover{
     display: flex;
     gap: 10px;
 }
+
+.page{
+    width: 100%;
+}
