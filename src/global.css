@@ -80,6 +80,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .logo-image{
@@ -99,12 +100,11 @@ a:hover{
 
 .page-title{
     margin: 0;
+    line-height: 1.2;
 }
 
 .page-subtitle{
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     font-weight: 400;
 }
 
@@ -125,6 +125,9 @@ a:hover{
 
 .work-preview{
   width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 .work-caption{
@@ -153,8 +156,10 @@ a:hover{
 .hero-image{
     width: 100%;
     height: auto;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: var(--border);
     background: #000;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.592);
+    min-height: 500px;
+    margin-bottom: 25px;
 }
