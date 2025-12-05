@@ -81,12 +81,15 @@ a:hover{
 }
 
 .page-subtitle{
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     font-weight: 400;
 }
 
 .hero{
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+    border-radius: 10px;
 }
