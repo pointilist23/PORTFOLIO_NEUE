@@ -98,6 +98,14 @@ a:hover{
     font-weight: 400;
 }
 
+/* hero */
+
+/* 
+            <div class="hero">
+                <img src="./src/img/hero.png" alt="hero-image" class="hero-image">
+            </div>
+*/
+
 .hero{
     width: 100%;
     height: auto;
