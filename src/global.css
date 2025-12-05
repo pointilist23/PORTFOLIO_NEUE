@@ -39,6 +39,7 @@ body{
     background-color: var(--background);
     color: var(--foreground);
     padding: 25px;
+    margin: 0;
 }
 
 a{
