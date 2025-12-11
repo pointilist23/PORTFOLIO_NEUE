@@ -7,4 +7,4 @@ This is my portfolio for my design works
 - [x] add portfolio page
 - [x] add content to portfolio pages and short writeup on each project
 - [x] add r&d page
-- [ ] add about page
+- [x] add about page
