@@ -164,6 +164,7 @@ a:hover{
     margin-top: 25px;
 }
 
-ifrane{
+.hero-image:has(iframe){
     min-height: 500px;
 }
+
