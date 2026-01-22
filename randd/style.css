@@ -8,3 +8,7 @@
 .rd-item {
     width: 206px;
 }
+
+iframe{
+    min-height: none !important;
+}
